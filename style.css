@@ -1,0 +1,64 @@
+/* bg #e5e5e5 */
+/* card #fdfdfd */
+/* tag #6a983c */
+/* text #151515 */
+/* link #7b61ff */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins';
+}
+.fw-600{
+    font-weight: 600;
+}
+.d-flex{
+    display: flex;
+    flex-direction: row;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e5e5e5;
+    min-height: 100vh;
+}
+.container{
+    width:301px;
+    height:348px;
+    background:#fdfdfd;
+    color:#151515;
+    padding:16px;
+}
+.container .header-img img{
+    width:100%;
+    height: 100%;
+    border-radius: 12px;
+}
+.tag{
+    margin-top:24px;
+    width:100%;
+    color:#6a983c;
+    font-size: 12px;
+    line-height: 18px;
+}
+span{
+    background: #f4f8ec;
+    border-radius: 12px;
+    padding: 0 8px;
+}
+h3{
+    margin-top:8px;
+    margin-bottom:16px;
+    font-size: 18px;
+    line-height: 27px;
+}
+.about{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+}
+.about p:nth-child(1){
+    margin-right:16px;
+}
